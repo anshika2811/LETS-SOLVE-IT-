@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nur</title>
+        <style>
+            
+            .headpart{
+                align : center;
+                border: 2px double rgb(54, 2, 51);
+                text-decoration:double;
+                text-align: center;
+                height: 120px;
+                width: 100%;
+                background: rgba(67, 2, 73, 0.6);
+                font-size: 70px;
+                font-weight: bold;
+                font-style:italic;
+                font-family:'Times New Roman';
+                color: whitesmoke;
+                transition:0.5s;
+                position: sticky;
+            }
+            .headpart:hover{
+                background-color: rgb(79, 175, 175);
+                color: rgb(13, 44, 1);
+            }
+            .row1{
+                border:black solid;
+                width: 100%;
+                height:40px;
+                font-size:20px;
+                font-weight: bold;
+                color:black;
+                position: sticky;
+                margin: auto;
+                position:absolute;
+                
+            }
+            .row1-col1{
+                width: 242px;
+                height:40px;
+                background:rgb(247, 41, 41);
+                float:left;
+                text-align: center;
+                transition:0.3s;
+            }
+            .row1-col2{
+                width: 242px;
+                height:40px;
+                background:rgb(250, 170, 50);
+                float:left;
+                text-align: center;
+                transition:0.3s;
+            }
+            .row1-col3{
+                width: 244px;
+                height:40px;
+                background:rgb(253, 253, 72);
+                float:left;
+                text-align: center;
+                transition:0.3s;
+            }
+            .row1-col4{
+                width: 242px;
+                height:40px;
+                background:rgb(118, 246, 6);
+                float:left;
+                text-align: center;
+                transition:0.3s;
+            }
+            .row1-col5{
+                width: 244px;
+                height:40px;
+                background:rgb(21, 188, 244);
+                float:left;
+                text-align: center;
+                transition:0.3s;
+            }
+            .row1-col6{
+                width: 231px;
+                height:40px;
+                background:rgb(250, 150, 220);
+                float:left;
+                text-align: center;
+                transition:0.3s;
+            }
+            .row1-col1:hover{
+                background-color: rgb(199, 197, 197);
+                color: rgb(73, 3, 56);
+                border: 2px solid rgb(54, 2, 51);
+            }
+            .row1-col2:hover{
+                background-color: rgb(199, 197, 197);
+                color: rgb(73, 3, 56);
+                border: 2px solid rgb(54, 2, 51);
+            }
+            .row1-col3:hover{
+                background-color: rgb(199, 197, 197);
+                color: rgb(73, 3, 56);
+                border: 2px solid rgb(54, 2, 51);
+            }
+            .dropdwn{
+                margin-top: 18px;
+                margin-left: 40px;
+                transition: 1s;
+                border: 2px solid;
+                display:none;
+            }
+            .row1-col3:hover .dropdwn{
+                width: 200px;
+                display: block;
+                position: center;
+                background: rgb(251, 248, 72);
+                font-weight: bold;
+                font-style:italic;
+                font-family:'Times New Roman';
+                transition : 0.5sec;
+            }
+            .row1-col3:hover .dropdwn:hover{
+                
+                background-color: rgb(250, 250, 166);
+            }
+            .so:hover{
+                border: 2px solid;
+                font-weight: bold;
+            }
+            .syl_oral_des{
+                color: black;
+                font-size: 20;
+                font-weight: bolder;
+                font-style: italic;
+                text-align: center;
+                border: 2px solid;
+            }
+            .sw:hover{
+                border: 0.4px solid;
+                font-weight: bold;
+            }
+            .syl_written_des{
+                color: black;
+                font-size: 20;
+                font-weight: bolder;
+                font-style: italic;
+                text-align: center;
+                border: 2px solid;
+            }
+            .row1-col4:hover{
+                background-color: rgb(199, 197, 197);
+                color: rgb(73, 3, 56);
+                border: 2px solid rgb(54, 2, 51);
+            }
+            .row1-col5:hover{
+                background-color: rgb(199, 197, 197);
+                color: rgb(73, 3, 56);
+                border: 2px solid rgb(54, 2, 51);
+            }
+            .row1-col6:hover{
+                background-color: rgb(199, 197, 197);
+                color: rgb(73, 3, 56);
+                border: 2px solid rgb(54, 2, 51);
+            }
+            main{
+                background-image :linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('main_background.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            footer{
+                background-image :linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('main_background.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .row2{
+                width: 100%;
+                height: 340px;
+                border: 2px;
+            }
+            .cartoon{
+                width: 300px;
+                height: 340px;
+                border: 2px solid;
+                float: left;
+            }
+            .blank1{
+                width: 50px;
+                height: 340px;
+                float: left;
+            }
+            .intro{
+                width: 700px;
+                height: 230px;
+                float : left;
+                border :3px;
+                background-color: rgb(255, 125, 146);
+                font-style: italic;
+                color: black;
+                font-size: 30px;
+                font-weight: bold;
+                text-shadow: 2px;
+                text-align: center;
+                box-shadow: 3px 3px 5px 5px rgb(86, 85, 85);
+                transition: 0.5sec;
+            }
+            .intro:hover{
+                background-color: rgb(249, 75, 104);
+                color: rgb(241, 235, 235);
+            }
+            .row3{
+                height: 420px;
+                width: 100%;
+                background: rgba(118, 109, 109, 0.3);
+            }
+            .row3-r1{
+                height: 40px;
+                width:100%;
+                text-align: center;
+                font-size: 40px;
+                font-style: italic;
+                font-weight: bold;
+                color: rgb(58, 2, 64);
+            }
+            .row3-r2{
+                
+                height:350px;
+                margin-left: 10px;
+                width:98%;
+                
+            }
+            .row3-r2-col1{
+                margin-left: 25px;
+                width: 450px;
+                height:350px;
+                float: left;
+                
+            }
+            .row3-r2-col1-r1{
+                height:40px;
+                width: 450px;
+                color: black;
+                font-weight: bold;
+                font-size: 25px;
+                font-style: italic;
+                text-align: center;
+                background: rgb(188, 244, 104);
+            }
+            .row3-r2-col1-r1:hover{
+                background: rgba(143, 250, 43,0.4);
+            }
+            <!--vedio col row1 youtube page-->
+            .row3-r2-col1-r2{
+                height: 280px;
+                width: 450px;
+                
+                box-shadow: 3px 3px 3px 5px rgb(102, 102, 100);
+            }
+            .row3-r2-col3{
+                margin-left: 45px;
+                width: 350px;
+                height:350px;
+                float: left;
+            }
+            .row3-r2-col3-r1{
+                height:40px;
+                width: 350px;
+                color: black;
+                font-weight: bold;
+                font-size: 25px;
+                font-style: italic;
+                text-align: center;
+                background: rgb(188, 244, 104);
+            }
+            .row3-r2-col3-r2{
+                height: 280px;
+                width: 350px;
+                color: black;
+                font-weight: bold;
+                font-size: 25px;
+                font-style: italic;
+                text-align: left;
+                box-shadow: 3px 3px 3px 5px rgb(102, 102, 100);
+                transition: 0.5sec;
+            }
+            .row3-r2-col3-r2:hover{
+                background: rgba(216, 247, 142,0.7);
+                font-size: 28px;
+                
+                font-weight: bolder;
+            }
+            .asgimg{              
+                height: 180px;
+                width: 100%;    
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="headpart">
+                <u>U.K.G</u>
+            </div>
+            <br/>
+            <div class="row1">
+                <div class="row1-col1" >Home</div>
+                <div class="row1-col2">About</div>
+                <div class="row1-col3">
+                    Syllabus
+                    <br/>
+                    <div class="dropdwn">
+                        <div class="so">ORAL
+                            <div class="syl_oral_des">
+                                <ul>
+                                    <li>Pre Maths Concepts</li>
+                                    <li>Numbers 1-100 (ones/tens/hundred)</li>
+                                    <li>Backward Counting 100-1(ones/tens/hundred)</li>                                   
+                                    <li>Number Names 1-100</li>
+                                    <li>Skip Counting of 2 and 3 </li>
+                                    <li>Skip Counting of 5 and 10</li>
+                                    <li>Ordinal Number</li>
+                                    <li>Shapes with definations</li>
+                                    <li>Greater than , Less than and Equal to</li>
+                                    <li>Addition concepts through pictures</li>
+                                    <li>Subtraction concepts through pictures </li>
+                                    <li>Patterns</li>
+                                    <li>Tens and Ones</li>
+                                    <li>Recognizing Money</li>
+                                    <li>Recognizing Time</li>
+                                    <li>Tables 1 to 5</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sw">WRITTEN
+                            <div class="syl_written_des">
+                                <ul>
+                                    <li>Pre Writing Skills</li>
+                                    <li>Exercise Related To Big And Small</li>
+                                    <li>Numbers 1-100 (ones/tens/hundred)</li>
+                                    <li>Backward Counting 100-1(ones/tens/hundred)</li>
+                                    <li>Missing Numbers</li>
+                                    <li>Ascending and Descending Order</li>
+                                    <li>Number Names 1-100</li>
+                                    <li>Skip Counting of 2 and 3 </li>
+                                    <li>Skip Counting of 5 and 10</li>
+                                    <li>Ordinal Number</li>
+                                    <li>Shapes</li>
+                                    <li>Greater than , Less than and Equal to</li>
+                                    <li>Addition concepts through pictures</li>
+                                    <li>Subtraction concepts through pictures </li>
+                                    <li>Patterns</li>
+                                    <li>Tens and Ones</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row1-col4">Help</div>
+                
+                <div class="row1-col6">Study Material</div>
+            </div>
+        </header>
+        <main>
+            <br/>
+            <div class="row2">
+                <div class="cartoon">
+                    <img src="hello.jpg" title="bunny" height="100%"/>
+                </div>
+                <div class="blank1"></div>
+                <div class="intro">
+                    <p><b>HEY!</b</p>
+                    <p><b>Hope you are enjoying..</b></p>
+                    <p><b>Let's continue the journey!</b></p>
+                </div>
+            </div>
+            <!--row 3 topic 1-->
+            <br/>
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 1: Pre Maths Concepts</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/fBcYFp6u5nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/R2LkIM4Le-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/bc267123bd" target="_parent" >ASSIGNMENT 1</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/bc267464uq" target="_parent" >ASSIGNMENT 2</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/fu1309938ay" target="_parent" >ASSIGNMENT 3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 4 same as row 3 for topic 2 -->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 2: Counting 1 - 100 (ones/tens/hundreds)</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/qNUW60I6Hxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/U6BCbH3Vwwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/pj2669326go" target="_parent" >ASSIGNMENT 4</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/id1390eh" target="_parent" >ASSIGNMENT 5</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/kp1631134sq" target="_parent" >ASSIGNMENT 6</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+            <!--code for row 5 same as row 3 for topic 3-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 3: Backcounting 100 - 1(ones/tens/hundreds)</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/l_79xGTLyXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/4MKv4U_TsrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/my748120eb" target="_parent" >ASSIGNMENT 7</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/zp1275745jp" target="_parent" >ASSIGNMENT 8</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/on1504991ps" target="_parent" >ASSIGNMENT 9</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 6 same as row 3 for topic 4-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 4: Missing Numbers</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/_OYn3bokZok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/-nsgNubi9Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/vc1465051xj" target="_parent" >ASSIGNMENT 10</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/nb786866uz" target="_parent" >ASSIGNMENT 11</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/kn1452360gg" target="_parent" >ASSIGNMENT 12</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 7 same as row 3 for topic 5-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 5: Ascending and Descending Order</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/ylSjFhUOp0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/jnq-X6Bi6CQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/jg2117583ii" target="_parent" >ASSIGNMENT 13</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/ay1464297ib" target="_parent" >ASSIGNMENT 14</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/vc1465051xj" target="_parent" >ASSIGNMENT 15</a>
+                                </li>
+                            </ul>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 8 same as row 3 for topic 6-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 6: Number Names 1 to 100</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/Cm44dGQT2hU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/kPrvdDUG84Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/hd210575nf" target="_parent" >ASSIGNMENT 16</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/xd1207096zi" target="_parent" >ASSIGNMENT 17</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/yt938519bd" target="_parent" >ASSIGNMENT 18</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 9 same as row 3 for topic 7-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 7: Skip Counting 2 & 3</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/nqdjso3_yHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/WI5v9HOlM-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/tg1833568ko" target="_parent" >ASSIGNMENT 19</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/ba1755490kq" target="_parent" >ASSIGNMENT 20</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/sk201501xi" target="_parent" >ASSIGNMENT 21</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 10 same as row 3 for topic 8-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 8:  Skip Counting 5 & 10 </u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/TxUhW1EHXMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/Szy2UE4VPJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/ya1568226oz" target="_parent" >ASSIGNMENT 22</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/at1239805dq" target="_parent" >ASSIGNMENT 23</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/fg1648148ss" target="_parent" >ASSIGNMENT 24</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 11 same as row 3 for topic 9-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 9: Ordinals</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/Szy2UE4VPJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/0CWWNzprEQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/zx985628zl" target="_parent" >ASSIGNMENT 25</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/gl923321gb" target="_parent" >ASSIGNMENT 26</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/ez1828918np" target="_parent" >ASSIGNMENT 27 (a)</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/og2399117cn" target="_parent" >ASSIGNMENT 27 (b)</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 12 same as row 3 for topic 10-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 10: Shapes</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/KkP0mOYqR_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/0mRxW3e39g8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/vz1527140oh" target="_parent" >ASSIGNMENT 28</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/as1918400it" target="_parent" >ASSIGNMENT 29</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/zv1526120bo" target="_parent" >ASSIGNMENT 30</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--code for row 13 same as row 3 for topic 11-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 11: Greater,Less & Equal Concepts</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/tkTwbaE7NIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/vbIB9yQTPQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/om1266266ab" target="_parent" >ASSIGNMENT 31</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/ug946444ef" target="_parent" >ASSIGNMENT 32</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/fx3398829sx" target="_parent" >ASSIGNMENT 33</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 14 same as row 3 for topic 12-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 12: Addition</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/_b0oMzlvERI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/X5rHLiqPkM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/lf236338sf" target="_parent" >ASSIGNMENT 34</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/pb1531947ju" target="_parent" >ASSIGNMENT 35</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/xp1558955ez" target="_parent" >ASSIGNMENT 36</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 14 same as row 3 for topic 12-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 13: Subtraction</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/FxrTNtClwrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/gMegunexwLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/zy1457692yp" target="_parent" >ASSIGNMENT 37</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/du2013185bt" target="_parent" >ASSIGNMENT 38</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/du2013185bt" target="_parent" >ASSIGNMENT 39</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 14 same as row 3 for topic 12-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 12: Patterns</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/yU0z7yeLyvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/CzFLDtvN_Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/el1058980tu" target="_parent" >ASSIGNMENT 40</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/hv1317006ix" target="_parent" >ASSIGNMENT 41</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/lh2426201dc" target="_parent" >ASSIGNMENT 42</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 14 same as row 3 for topic 12-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 13: Tens & Ones</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/1F3AycEDksY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/0gzSsbsQpeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/fb971082uhd" target="_parent" >ASSIGNMENT 43</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/qx2880078yy" target="_parent" >ASSIGNMENT 44</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/xh1678394et" target="_parent" >ASSIGNMENT 45</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 14 same as row 3 for topic 12-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 14: Recognizing Money</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/r-7Gk-PXLrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/MDQFZMhfdkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/id1838225ka" target="_parent" >ASSIGNMENT 46</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/uz30726tz" target="_parent" >ASSIGNMENT 47</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="coins.png" target="_parent" >ASSIGNMENT 48</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 14 same as row 3 for topic 12-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 15: Recognizing Time</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/K5q65e_E-os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/GiC_IU9EISY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/hi2080295lv" target="_parent" >ASSIGNMENT 49</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/xk1536966oi" target="_parent" >ASSIGNMENT 50</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/sl2207440pp" target="_parent" >ASSIGNMENT 51</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--code for row 14 same as row 3 for topic 12-->
+            <div class="row3">
+                <div class="row3-r1">
+                    <p><u>Topic 16: Tables 1 to 5</u></p>
+                </div>
+                <div class="row3-r2">
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/lssCtvNLJSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                        </div>
+                    </div>
+                    <div class="row3-r2-col1">
+                        <div class="row3-r2-col1-r1">
+                            <p><u>VIDEO</u></p>
+                        </div>
+                        <div class="row3-r2-col1-r2">
+                            <iframe width="440" height="280" src="https://www.youtube.com/embed/NkDjVevGehg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="row3-r2-col3">
+                        <div class="row3-r2-col3-r1">
+                            <p><u>ASSIGNMENT</u></p>
+                        </div>
+                        <div class="row3-r2-col3-r2">
+                            <ul>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/io1804423ko" target="_parent" >ASSIGNMENT 52</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/qy1503072nx" target="_parent" >ASSIGNMENT 53</a>
+                                </li>
+                                <br/>
+                                <li>
+                                    <a href="https://www.liveworksheets.com/au1295270bz" target="_parent" >ASSIGNMENT 54</a>
+                                </li>                                 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
